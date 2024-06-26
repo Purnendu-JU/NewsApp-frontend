@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body.bg-dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.bg-light {
+  background-color: white;
+  color: black;
+}
+
+.navbar-dark-mode {
+  background-color: #213f5d; /* Navy blue color */
+  color: white;
+}
+
+.navbar-light-mode {
+  background-color: #f8f9fa; /* Light mode color */
+  color: black;
+}
+
+.card-dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #343a40;
+}
+
+.card-light-mode {
+  background-color: white;
+  color: black;
+  border: 1px solid #ddd;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.text-dark {
+  color: #333;
+}
+
+/* App.css */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: opacity 0.3s;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer.invisible {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.footer.visible {
+  opacity: 1;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .left {
+  margin-left: 12px;
+}
+
+.footer .right {
+  margin-right: 20px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
