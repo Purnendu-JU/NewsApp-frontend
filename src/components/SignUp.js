@@ -13,7 +13,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, password } = credentials;
-    const response = await fetch("https://news-app-backend-wine.vercel.app/api/auth/signup", {
+    const response = await fetch("https://news-app-backend-red.vercel.app/api/auth/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
